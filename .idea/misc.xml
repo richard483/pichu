@@ -4,9 +4,11 @@
     <option name="show" value="ASK" />
     <option name="description" value="" />
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MarkdownSettings">
     <option name="previewPanelProviderInfo">
       <ProviderInfo name="Compose (experimental)" className="com.intellij.markdown.compose.preview.ComposePanelProvider" />
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="jbr-21" project-jdk-type="JavaSDK" />
 </project>

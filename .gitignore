@@ -13,3 +13,13 @@
 .externalNativeBuild
 .cxx
 local.properties
+.kotlin/
+
+# Models are downloaded/adb-pushed to the device at runtime, never committed
+# (see CLAUDE.md "Model setup"). Native .so libs under app/src/main/jniLibs ARE
+# committed — they are not matched here.
+*.tar.bz2
+*.onnx
+
+# Stray / local-only files
+attachment.xlsx
